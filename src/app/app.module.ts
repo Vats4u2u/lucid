@@ -7,11 +7,15 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { RouterModule } from '@angular/router';
+import { LucidComponent } from './lucid/lucid.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'lucid', component: LucidComponent },
+
+
   { path: '', redirectTo: '/home', pathMatch: 'full' },
 ];
 
@@ -22,7 +26,8 @@ const routes: Routes = [
     AppComponent,
     HomeComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    LucidComponent
   ],
   imports: [
     BrowserModule,
