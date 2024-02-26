@@ -1,0 +1,117 @@
+/* nav bar started  */
+
+.container-fluid {
+    display: flex;
+    gap: 60vw;
+    z-index: 999;
+    margin-top: 30px;
+
+}
+
+.navbar {
+    background-color: transparent;
+    position: absolute;
+    /* top:5px;     */
+}
+
+#navbarSupportedContent {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 100;
+
+}
+
+#dharam a {
+    color: rgb(215, 201, 201);
+
+}
+
+.navitem {
+    text-align: center;
+
+}
+
+#navgap {
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
+}
+
+#logo {
+    color: rgb(247, 236, 236);
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #485054;
+}
+
+#logo a {
+    color: rgb(106, 151, 190);
+}
+
+/* nav bar end */
+
+#carouselExampleSlidesOnly {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.overlay-text {
+    padding: 150px 50px;
+    color: rgb(192, 178, 178);
+    position: absolute;
+    top: 17%;
+    right: 14%;
+}
+
+.overlay-text h1 {
+    font-size: 60px;
+    font-style: initial;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.overlay-text .h5 {
+    font-style: italic;
+    font-size: 17px;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* parralax */
+
+body {
+    background-color: #1d1e22;
+}
+
+#parallax {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://raw.githubusercontent.com/oscicen/oscicen.github.io/master/img/depth-3.png), url(https://raw.githubusercontent.com/oscicen/oscicen.github.io/master/img/depth-2.png), url(https://raw.githubusercontent.com/oscicen/oscicen.github.io/master/img/depth-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 50% 50%;
+}
+
+h1 {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: "Arial";
+    text-transform: uppercase;
+    opacity: .7;
+    font-size: 70px;
+}
+h6{
+
+    color: white;
+    position: absolute;
+    top: 51%;
+    left: 37%;
+    opacity: .8;
+}

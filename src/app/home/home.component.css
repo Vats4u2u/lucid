@@ -104,6 +104,14 @@ h1 {
     color: #fff;
     font-family: "Arial";
     text-transform: uppercase;
-    opacity: .2;
+    opacity: .7;
     font-size: 70px;
+}
+h6{
+
+    color: white;
+    position: absolute;
+    top: 51%;
+    left: 37%;
+    opacity: .8;
 }
