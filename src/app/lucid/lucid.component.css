@@ -2,56 +2,6 @@
 *{
     background-color: #1D1E22;
 }
-.container-fluid {
-    display: flex;
-    gap: 60vw;
-    z-index: 999;
-    margin-top: 30px;
-
-}
-
-.navbar {
-    background-color: transparent;
-    position: absolute;
-    z-index: 999;
-    position: fixed;
-    /* top:5px;     */
-}
-
-#navbarSupportedContent {
-
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    font-size: 100;
-
-}
-
-#dharam a {
-    color: rgb(215, 201, 201);
-
-}
-
-.navitem {
-    text-align: center;
-
-}
-
-#navgap {
-    display: flex;
-    gap: 10px;
-    flex-wrap: nowrap;
-}
-
-#logo {
-    color: rgb(247, 236, 236);
-    border: 2px solid black;
-    border-radius: 5px;
-    background-color: #485054;
-}
-
-#logo a {
-    color: rgb(106, 151, 190);
-}
 
 /* nav bar end */
 
@@ -88,6 +38,7 @@
 
 body {
     background-color: #1d1e22;
+    width: 100vw;
 }
 
 #parallax {
@@ -103,19 +54,36 @@ body {
 
 
 #card1{
-    background-color: #1D1E22;
+    background-color: transparent;
     position: absolute;
     margin-top: -30%;
     margin-left: 10%;
+    border: 0;
 
     
+}
+.card-dharam{
+    background-color: transparent;
 }
 #card2{
     
     color: white;
+    border: none;
     
 }
 
 #ic{
-    /* background-color: red; */
+    background-color: rgb(56, 46, 46);
+    color: white;
+    font-size: 30px;
+    border: none;
+}
+#use{
+    border: none;
+    
+    
+}
+#use1{
+    border: none;
+    color: white;
 }
