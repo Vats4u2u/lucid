@@ -10,6 +10,7 @@ import { RouterModule } from '@angular/router';
 import { LucidComponent } from './lucid/lucid.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
+import { BlogComponent } from './blog/blog.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -33,7 +34,8 @@ const routes: Routes = [
     ContactComponent,
     LucidComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,

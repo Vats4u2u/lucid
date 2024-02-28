@@ -1,6 +1,8 @@
 /* nav bar started  */
 *{
     background-color: #1D1E22;
+    overflow: hidden;
+    box-sizing: border-box;
 }
 
 /* nav bar end */
@@ -87,3 +89,4 @@ body {
     border: none;
     color: white;
 }
+
