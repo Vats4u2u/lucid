@@ -1,0 +1,100 @@
+
+
+#carouselExampleSlidesOnly {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.overlay-text {
+    padding: 150px 50px;
+    color: rgb(192, 178, 178);
+    position: absolute;
+    top: 17%;
+    right: 14%;
+}
+
+.overlay-text h1 {
+    font-size: 60px;
+    font-style: initial;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.overlay-text .h5 {
+    font-style: italic;
+    font-size: 17px;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* parralax */
+
+body {
+    background-color: #1d1e22;
+}
+
+#parallax {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://raw.githubusercontent.com/oscicen/oscicen.github.io/master/img/depth-3.png), url(https://raw.githubusercontent.com/oscicen/oscicen.github.io/master/img/depth-2.png), url(https://raw.githubusercontent.com/oscicen/oscicen.github.io/master/img/depth-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 50% 50%;
+}
+
+h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #e8dfdf;
+    font-family: "Arial";
+    text-transform: uppercase;
+    opacity: .9;
+    font-size: 70px;
+}
+#main{
+    display: flex;
+    justify-content: space-evenly;  
+    padding: 0 25%;
+    position: absolute;
+    top: 60%;
+}
+.card{
+    border-radius: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#blog1 {
+    transition: transform 0.3s ease;
+}
+#blog1:hover {
+    transform: scale(1.05);
+}
+#blog1:active {
+    transform: scale(0.95);
+}
+
+
+#blog2 {
+    transition: transform 0.3s ease;
+}
+#blog2:hover {
+    transform: scale(1.05);
+}
+#blog2:active {
+    transform: scale(0.95);
+}
+
+#blog3 {
+    transition: transform 0.3s ease;
+}
+#blog3:hover {
+    transform: scale(1.05);
+}
+#blog3:active {
+    transform: scale(0.95);
+}

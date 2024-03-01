@@ -11,6 +11,7 @@ import { LucidComponent } from './lucid/lucid.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { BlogComponent } from './blog/blog.component';
+import { DreamsComponent } from './blog/dreams/dreams.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -19,8 +20,11 @@ const routes: Routes = [
   { path: 'lucid', component: LucidComponent },
   { path: 'footer', component: FooterComponent },
   { path: 'header', component: HeaderComponent },
+  { path: 'blog', component: BlogComponent },
+  { path: 'dreams', component: DreamsComponent },
 
 
+  
   { path: '', redirectTo: '/home', pathMatch: 'full' },
 ];
 
@@ -35,7 +39,8 @@ const routes: Routes = [
     LucidComponent,
     FooterComponent,
     HeaderComponent,
-    BlogComponent
+    BlogComponent,
+    DreamsComponent
   ],
   imports: [
     BrowserModule,
