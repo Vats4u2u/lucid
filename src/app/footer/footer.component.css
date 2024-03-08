@@ -1,18 +1,27 @@
-
-#bred{
+#bred {
     float: right;
-   
 }
-#bred a{
-    color:rgba(255, 255, 255, 0.825);
+
+#bred a {
+    color: rgba(255, 255, 255, 0.825);
     text-decoration: none;
 }
-#icons{
-display: flex;
-width: 100%;
-align-items: center;
-justify-content :end;
-gap: 26vw;
 
+#icons {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between; /* Adjusted to evenly distribute space */
+    padding: 0 15%; /* Adjusted padding for better spacing */
+    box-sizing: border-box; /* Ensures padding doesn't affect the overall width */
 }
 
+/* Add the following styles to handle responsive adjustments */
+@media (max-width: 768px) {
+    #icons {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+}
